@@ -764,10 +764,226 @@ img[src="cudaLogo.png"]{
     text-align:center;
     font-size:18px;
 }
-.img-progress-bar{
-    margin-left:142px;
-    margin-top:30px;
+
+.Div1{
+    margin-bottom:-600px;
 }
+.circle-wrap {
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+    position:relative;
+    bottom:300px;
+    left:180px;
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color:aqua;
+}
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(150deg);
+}
+ 
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(150deg);
+  }
+}
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+    font-family:cursive;
+}
+
+.circle-wrap2 {
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+    position:relative;
+    bottom:450px;
+    left:450px;
+}
+.circle-wrap2 .circle2 .mask2,
+.circle-wrap2 .circle2 .fill2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap2 .circle2 .mask2 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+.circle-wrap2 .circle2 .mask2 .fill2 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color:mediumvioletred;
+}
+.circle-wrap2 .circle2 .mask2.full2,
+.circle-wrap2 .circle2 .fill2 {
+  animation: fill ease-in-out 3s;
+  transform: rotate(165deg);
+}
+ 
+@keyframes fill2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(165deg);
+  }
+}
+.circle-wrap2 .inside-circle2 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+    font-family:cursive;
+}
+
+.circle-wrap3 {
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+    position:relative;
+    bottom:600px;
+    left:720px;
+}
+.circle-wrap3 .circle3 .mask3,
+.circle-wrap3 .circle3 .fill3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap3 .circle3 .mask3 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+.circle-wrap3 .circle3 .mask3 .fill3 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color:mediumseagreen;
+}
+.circle-wrap3 .circle3 .mask3.full3,
+.circle-wrap3 .circle3 .fill3 {
+  animation: fill ease-in-out 3s;
+  transform: rotate(130deg);
+}
+ 
+@keyframes fill3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(130deg);
+  }
+}
+.circle-wrap3 .inside-circle3 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+    font-family:cursive;
+}
+
+.circle-wrap4 {
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+    position:relative;
+    bottom:750px;
+    left:990px;
+}
+.circle-wrap4 .circle4 .mask4,
+.circle-wrap4 .circle4 .fill4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap4 .circle4 .mask4 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+.circle-wrap4 .circle4 .mask4 .fill4 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color:orangered;
+}
+.circle-wrap4 .circle4 .mask4.full4,
+.circle-wrap4 .circle4 .fill4 {
+  animation: fill ease-in-out 3s;
+  transform: rotate(142deg);
+}
+ 
+@keyframes fill4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(142deg);
+  }
+}
+.circle-wrap4 .inside-circle4 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+    font-family:cursive;
+}
+
 .h1{
     font-family:"titillium web";
     position:relative;
